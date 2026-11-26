@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YOUNZIN</title>
+
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #090d16;
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    padding: 20px clamp(18px, 6vw, 90px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #202a3a;
+}
+
+.logo {
+    font-size: clamp(20px, 4vw, 26px);
+    font-weight: bold;
+    color: #16c784;
+}
+
+.status {
+    color: #16c784;
+    font-size: 13px;
+}
+
+main {
+    width: min(100% - 36px, 1000px);
+    margin: auto;
+    padding: clamp(55px, 10vw, 100px) 0;
+}
+
+.tag {
+    color: #16c784;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: clamp(32px, 7vw, 65px);
+    line-height: 1.15;
+    overflow-wrap: anywhere;
+    margin: 20px 0;
+}
+
+h1 span {
+    color: #16c784;
+}
+
+.description {
+    color: #a5b1c2;
+    line-height: 1.8;
+    max-width: 550px;
+    font-size: clamp(14px, 2vw, 17px);
+}
+
+.card {
+    width: 100%;
+    margin-top: 30px;
+    padding: clamp(20px, 5vw, 30px);
+    background: #141d2b;
+    border: 1px solid #263447;
+    border-radius: 15px;
+    overflow-wrap: anywhere;
+}
+
+.card p {
+    color: #a5b1c2;
+    margin-top: 12px;
+    line-height: 1.7;
+}
+
+.card a {
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 13px 22px;
+    background: #16c784;
+    color: #090d16;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.card a:hover {
+    opacity: .85;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 25px 15px;
+    color: #718096;
+    border-top: 1px solid #202a3a;
+    font-size: 13px;
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 17px;
+    }
+
+    main {
+        width: calc(100% - 32px);
+    }
+
+    .card a {
+        width: 100%;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">YOUNZIN.</div>
+    <div class="status">● ONLINE</div>
+</header>
+
+<main>
+    <div class="tag">WELCOME TO MY WEBSITE</div>
+
+    <h1>
+        Hello, World.<br>
+        <span>Welcome to YOUNZIN.</span>
+    </h1>
+
+    <p class="description">
+        Selamat datang di website YOUNZIN.
+        Website sederhana dengan desain dark modern,
+        minimalis, dan responsif.
+    </p>
+
+    
+<section class="card">
+        <h2>About YOUNZIN</h2>
+        <p>
+            Ini adalah website pribadi YOUNZIN.
+            Tempat sederhana untuk berbagi informasi,
+            tulisan, dan berbagai hal menarik.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>LyricsZymu Mobile 1.0</h2>
+        <p>Minecraft Java Edition 1.21.11</p>
+        <a href="https://www.mediafire.com/file/wh8d2bif1dbfkzj/LyricsZymu-Mobile-1.0_1.21.11.jar/file"
+           target="_blank"
+           rel="noopener noreferrer"
+           style="display:inline-block;margin-top:20px;padding:13px 22px;background:#16c784;color:#090d16;text-decoration:none;border-radius:8px;font-weight:bold;">
+           Download File
+        </a>
+    </section>
+    
+    <section class="card">
+        <h2>LyricsZymu Mobile 1.0</h2>
+        <p>Minecraft Java Edition 1.21.11</p>
+        <a href="https://www.mediafire.com/file/wh8d2bif1dbfkzj/LyricsZymu-Mobile-1.0_1.21.11.jar/file"
+           target="_blank"
+           rel="noopener noreferrer"
+           style="display:inline-block;margin-top:20px;padding:13px 22px;background:#16c784;color:#090d16;text-decoration:none;border-radius:8px;font-weight:bold;">
+           Download File
+        </a>
+    </section>
+    </main>
+    
+    
+
+<footer>
+    © 2026 YOUNZIN. All rights reserved.
+</footer>
+
+</body>
+</html>
